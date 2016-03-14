@@ -259,7 +259,7 @@ env.Append(NVCCFLAGS = nvflags)
 env.Append(HIPFLAGS = flags)
 
 # Now create the program program
-sources = ['main.cpp', 'rotate.cu', 'rotate_hip.hip.cpp', 'moving_average.cu']
+sources = ['main.cpp', 'rotate.cu', 'rotate_hip.hip.cpp', 'moving_average_hip.hip.cpp', 'moving_average.cu']
 
 env.Program('cuda_hip_tex', sources)
 

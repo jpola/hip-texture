@@ -8,6 +8,7 @@
 #include "utils.hpp"
 
 #include "moving_average.hpp"
+#include "moving_average_hip.hpp"
 
 using namespace cimg_library;
 
@@ -71,7 +72,7 @@ int main(int argc, char *argv[])
 
 
     calculate_moving_average();
-
+    calculate_moving_average_hip();
 
 
 

@@ -36,3 +36,8 @@
 
 # gedit backup
 *~
+# scons trash
+.sconsign.dblite
+
+#exec
+cuda_hip_tex
