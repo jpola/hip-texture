@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+
+# Qt creator
+*.config
+*.creator
+*.files
+*.includes
+*.user
+
+# gedit backup
+*~
